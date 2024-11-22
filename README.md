@@ -41,3 +41,7 @@ A simple and interactive Tic Tac Toe game built using **ReactJS** for functional
    npm start
 
 Open your browser and navigate to [http://localhost:5173](http://localhost:5173).
+
+## TOdos
+- **Add Theme selector**
+- **Add scoreboard and next button to proceed to next game**
