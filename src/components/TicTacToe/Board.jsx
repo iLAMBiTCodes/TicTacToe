@@ -43,7 +43,7 @@ const Board = ({ board, setBoard, xTurn, setXTurn, winner, setWinner, noOfClicks
 
     const renderButton = (index) => {
         return (<button 
-                    className='p-0 m-1 border-2 border-black rounded-md size-[75px] text-green-950 font-extrabold text-4xl active:scale-[95%] transition-all' 
+                    className='p-0 m-1 border-2 border-black rounded-md size-[75px] text-green-950 font-extrabold text-4xl active:scale-[95%] transition-all select-none' 
                     key = {index}
                     onClick={_ => clickHandler(index)}>
                     {board[index]}
